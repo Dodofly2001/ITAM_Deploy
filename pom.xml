@@ -5,7 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>_ITAM</name>
   <properties>
-	    <java.version>1.8</java.version>
+	    <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
   <dependencies>
 	<dependency>
@@ -41,7 +42,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version> <!--3.8.1-->
+        <version>3.6.1</version> <!--3.8.1-->
         <configuration>
 			<source>1.8</source>
 			<target>1.8</target>
