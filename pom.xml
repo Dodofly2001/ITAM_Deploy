@@ -43,12 +43,20 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.1</version> <!--3.8.1-->
-        <configuration>
-			<source>1.8</source>
-			<target>1.8</target>
-			<failOnError>false</failOnError>
+		<executions>
+			<execution>
+				<goals>
+					<goal>repackage</goal>
+				</goals>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<failOnError>false</failOnError>
+					<mainClass>src/java</mainClass>
           <!--<release>17</release>-->
-        </configuration>
+        		</configuration>
+			</execution>
+		</executions>
       </plugin>
     </plugins>
   </build>
