@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/_ITAM-1.0.0-SNAPSHOT.jar
+web: java $JAVA_OPTS -jar target/_ITAM-0.0.1-SNAPSHOT.jar
